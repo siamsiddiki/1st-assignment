@@ -183,3 +183,59 @@ font-weight: 400;
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
 }
+/* news-card */
+.recent{
+    margin: 80px 160px;
+}
+.cards{
+    gap: 32;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+   margin-bottom: 24px;
+padding: 48px;
+align-items: center;
+border-radius: 24px;
+background-color: rgb(15, 221, 228);
+gap: 32px;
+}
+.card-img img{
+    width: 408px;
+height: 306px;
+border-radius: 24px;
+}
+.card-info h3{
+color: rgba(14, 14, 14, 0.8);
+font-size: 32px;
+font-weight: 700;
+
+.about h3{
+    font-size: 40px;
+font-weight: 700;
+color: rgb(14, 14, 14);
+}
+.about p{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+.news-container{
+    margin-block-end: 32px;
+}
+.describe{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.btn{
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+border-radius: 8px;
+padding: 13px 26px 13px 26px;
+background-color: rgb(0, 106, 80);
+border-style: none;
+}
