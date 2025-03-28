@@ -97,6 +97,9 @@ padding: 24px;
 /* vision section */
 .vision{
     margin: 80px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 .vision-content{
     display: flex;
@@ -160,4 +163,23 @@ padding: 24px;
     padding: 11px 20px 11px 20px;
     border-style: none;
 
+}
+.vision-title{
+    color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+/* quote */
+.quote{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
 }
