@@ -95,3 +95,69 @@ padding: 24px;
 
 }
 /* vision section */
+.vision{
+    margin: 80px 160px;
+}
+.vision-content{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.DT{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.vision-h{
+    color: rgba(14, 14, 14, 0.8);
+    Font-weight:700;
+    Font-size:20px;
+}
+.vision-p{
+    color: rgba(14, 14, 14, 0.7);
+    Font-weight:400;
+    Font-size:16px;
+
+}
+.GE{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgb(198, 228, 214);
+    padding: 32px;
+}
+.MI{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: rgb(247, 235, 207);
+    padding: 32px;
+
+}
+.button-1{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: rgb(84, 144, 245);
+    padding: 11px 20px 11px 20px;
+    border-style: none;
+}
+.button-2{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color:rgb(9, 161, 92);
+    padding: 11px 20px 11px 20px;
+    border-style: none;
+}
+.button-3{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color:rgb(255, 194, 57);
+    padding: 11px 20px 11px 20px;
+    border-style: none;
+
+}
