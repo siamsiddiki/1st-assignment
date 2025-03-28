@@ -34,7 +34,8 @@ nav a button{
     align-items: center;
     gap: 64;
     padding: 80px 100px 80px 100px;
-    margin-bottom: 80px;
+   margin: 80px 160px;
+  
 }
 .banner-title{
     color:rgba(14, 14, 14, 0.5);
@@ -56,5 +57,41 @@ nav a button{
     border-radius: 8px;
     margin: 24px 0px;
     border-style: none;
+    .banner-section{
+        margin: 80px 160px;
+    }
 }
 /* pillar section */
+section>h3{
+    color: rgb(14, 14, 14);
+Font-weight: 700;
+Font-size: 40px;
+
+}
+.pillar-content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+.pillar-item{
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background-color: rgb(255, 255, 255);
+padding: 24px;
+}
+.pillar-item h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+.pillar-item p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.pillar{
+    margin: 80px 160px;
+
+}
+/* vision section */
