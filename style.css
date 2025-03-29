@@ -180,8 +180,12 @@ font-weight: 400;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
+    padding: 48px 24px 48px 24px;
+}
+.quote-container{
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
+    background-position: top left;
 }
 /* news-card */
 .recent{
@@ -198,7 +202,7 @@ font-weight: 400;
 padding: 48px;
 align-items: center;
 border-radius: 24px;
-background-color: rgb(15, 221, 228);
+background-color: rgba(15, 221, 228, 0.212);
 gap: 32px;
 }
 .card-img img{
@@ -359,5 +363,9 @@ font-weight: 600;
     color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
 font-weight: 400;
+}
+a>button:hover {
+    background-color: rgba(9, 31, 78, 0.438);
+    color: rgb(6, 7, 68);
 }
 
