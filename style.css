@@ -209,7 +209,7 @@ border-radius: 24px;
 .card-info h3{
 color: rgba(14, 14, 14, 0.8);
 font-size: 32px;
-font-weight: 700;
+font-weight: 700;}
 
 .about h3{
     font-size: 40px;
@@ -237,5 +237,127 @@ font-weight: 600;
 border-radius: 8px;
 padding: 13px 26px 13px 26px;
 background-color: rgb(0, 106, 80);
-border-style: none;
+border-style:none;
+}   
+ /*donation  */
+.donation-description h3{
+font-weight: 400;
+font-size: 40px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
 }
+.donation-description p{
+    color: rgba(14, 14, 14, 0.7);
+ font-size: 16px;
+ font-weight: 400;
+ gap: 32px;
+
+}
+.donation-description{
+    text-align: center;
+}
+.donation-button{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+.donation-amount{
+    
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+.donation-amount-highlight{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(198, 228, 214);
+padding: 40px;
+}
+.other-amount{
+    padding: 20px 40px 20px 40px;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(88, 84, 84, 0.15);
+    background: rgb(255, 255, 255);
+}
+.donate{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.donation-container{
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.donate-now{
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background-color: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+margin: 0 530px;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+}
+.donation{
+    margin: 80px 160px;
+}
+/* newsletter */
+.newsletter{
+    border-radius: 24px;
+    background-color: rgb(198, 228, 214);
+    margin: 80px 160px;
+    padding: 80px 100px;
+    
+}
+.newsletter-description h3{
+ color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+.newsletter-description p{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.newsletter-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+.newsletter-input input{
+    padding: 18px 40px 18px 40px;
+    width: 600px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border-style: none;
+}
+.newsletter-input button {
+    border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+padding: 18px 34px 18px 34px;
+border-style: none;
+color: #F5F5F5;
+font-size: 18px;
+font-weight: 600;
+}
+.newsletter-input{
+    display: flex;
+
+}
+.spam{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
